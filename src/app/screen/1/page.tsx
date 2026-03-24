@@ -126,7 +126,7 @@ export default function Screen1() {
                 </div>
               </div>
 
-              <div className='flex flex-wrap justify-center gap-[0.8vw] z-40'>
+              <div className='flex flex-wrap justify-center gap-[0.8vw] z-40 -mt-[3vw]'>
                 {/* All Tags display */}
                 {/* {dumplings.items[0]?.tags?.ingredients?.map((tag) => (
                   <span key={tag} className='px-[0.8vw] py-[0.1vw] bg-white/10 text-white/60 rounded-[0.4vw] text-[1vw]'>{tag}</span>
@@ -147,7 +147,7 @@ export default function Screen1() {
                 {dumplings.items[0]?.options?.map((opt: any, i: number) => (
                   <span
                     key={i}
-                    className='px-[0.8vw] py-[0.1vw] bg-linear-to-r from-[#ff6b35]/20 to-[#f7931e]/20 text-[#ff9500] rounded-full font-bold border border-[#ff9500]/30 text-[1vw]'
+                    className='px-[0.8vw] py-[0.1vw] bg-linear-to-r from-[#ff6b35]/20 backdrop-blur-sm to-[#f7931e]/20 text-[#ff9500] rounded-full font-bold border border-[#ff9500]/30 text-[1vw]'
                   >
                     {opt.name} {opt.price > 0 && `+$${opt.price.toFixed(2)}`}
                   </span>

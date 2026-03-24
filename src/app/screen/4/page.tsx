@@ -37,7 +37,9 @@ export default function Screen4() {
   if (!isLoaded) {
     return (
       <div className='h-screen flex items-center justify-center bg-[#0a0a0a]'>
-        <div className='text-4xl font-bold text-white uppercase tracking-tighter'>Loading...</div>
+        <div className='text-4xl font-bold text-white uppercase tracking-tighter'>
+          Loading...
+        </div>
       </div>
     );
   }
@@ -76,23 +78,31 @@ export default function Screen4() {
         <section className='flex-1 grid grid-cols-3 gap-[4vw] -mt-[2vw] '>
           {/* Column 1: Dumplings & Side Dishes */}
           <div className='flex flex-col gap-[4vw]'>
-            {categories.filter(cat => ['homemade-dumplings', 'side-dish'].includes(cat.id)).map(cat => (
-              <CategorySection key={cat.id} category={cat} />
-            ))}
+            {categories
+              .filter((cat) =>
+                ['homemade-dumplings', 'side-dish'].includes(cat.id),
+              )
+              .map((cat) => (
+                <CategorySection key={cat.id} category={cat} />
+              ))}
           </div>
 
           {/* Column 2: Rice Bowls */}
           <div className='flex flex-col gap-[4vw]'>
-            {categories.filter(cat => ['kong-fu-rice-bowls'].includes(cat.id)).map(cat => (
-              <CategorySection key={cat.id} category={cat} />
-            ))}
+            {categories
+              .filter((cat) => ['kong-fu-rice-bowls'].includes(cat.id))
+              .map((cat) => (
+                <CategorySection key={cat.id} category={cat} />
+              ))}
           </div>
 
           {/* Column 3: Soup & Noodles */}
           <div className='flex flex-col gap-[4vw]'>
-            {categories.filter(cat => ['soup', 'noodle-fried-rice'].includes(cat.id)).map(cat => (
-              <CategorySection key={cat.id} category={cat} />
-            ))}
+            {categories
+              .filter((cat) => ['soup', 'noodle-fried-rice'].includes(cat.id))
+              .map((cat) => (
+                <CategorySection key={cat.id} category={cat} />
+              ))}
           </div>
         </section>
       </main>
@@ -103,7 +113,7 @@ export default function Screen4() {
 function CategorySection({ category }: { category: any }) {
   return (
     <div className='flex flex-col gap-[1vw]'>
-      <div className='text-[#ffd700] text-[1vw] font-bold uppercase tracking-widest border-b-4 border-[#ffd700]/20 pb-[0.5vw] '>
+      <div className='text-[#ffd700] text-[1vw] font-bold uppercase tracking-widest border-b-[0.2vw] border-[#ffd700]/50 pb-[0.5vw] '>
         {category.name}
       </div>
       <div className='flex flex-col gap-[0.7vw]'>

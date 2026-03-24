@@ -158,11 +158,11 @@ export default function Screen3() {
                             className='px-[0.5vw] bg-gradient-to-r from-[#ff6b35]/20 to-[#f7931e]/20 text-[#ff9500] rounded-full font-medium border border-[#ff9500]/30'
                           >
                             {opt.name}
-                            {opt.price > 0 && (
+                            {
                               <span className='text-[#ffd700] font-bold'>
-                                +${opt.price.toFixed(2)}
+                                $ {(item.price + opt.price).toFixed(2)}
                               </span>
-                            )}
+                            }
                           </span>
                         ))}
                       </div>
