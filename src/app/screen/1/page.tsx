@@ -91,7 +91,7 @@ export default function Screen1() {
             </div>
           </div>
 
-          <div className='flex  mt-[17vw] flex-col gap-[1vw]'>
+          <div className='flex  mt-[18vw] flex-col gap-[1vw]'>
             {/* List of other Dumplings */}
             <div className='flex flex-col gap-[0.5vw] '>
               <div className='text-[#ffd700] text-[1vw] font-bold uppercase tracking-widest border-b-4 border-[#ffd700]/20 pb-[0.5vw] '>
