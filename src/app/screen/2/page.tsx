@@ -102,7 +102,7 @@ export default function Screen2() {
       const newTypeTags =
         currentTypeTags.includes(tag) ?
           currentTypeTags.filter((t) => t !== tag)
-        : [...currentTypeTags, tag];
+          : [...currentTypeTags, tag];
       return {
         ...prev,
         [type]: newTypeTags,
@@ -176,7 +176,7 @@ export default function Screen2() {
                 <div className='flex flex-col gap-[1vw]  justify-center z-10 -mt-[3vw]'>
                   <div className='flex relative justify-center'>
                     {/* <AutoScroll speed={5}> */}
-                    <h3 className=' font-bold px-5 text-[2vw]  text-stroke text-nowrap z-20 text-white text-center leading-tight'>
+                    <h3 className=' font-bold px-5 text-[1.8vw]  text-stroke text-nowrap z-20 text-white text-center leading-tight'>
                       {item.name}
                     </h3>
                     {/* </AutoScroll> */}
@@ -187,33 +187,33 @@ export default function Screen2() {
                     {(item.tags?.ingredients?.length ||
                       item.tags?.flavors?.length ||
                       item.tags?.restrictions?.length) && (
-                      <div className='flex flex-wrap justify-center gap-[0.5vw]'>
-                        {item.tags.ingredients?.map((tag) => (
-                          <span
-                            key={tag}
-                            className='px-[0.5vw] bg-white/10 text-white/60 rounded'
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                        {item.tags.flavors?.map((tag) => (
-                          <span
-                            key={tag}
-                            className='px-[0.5vw] bg-[#ffd700]/20 text-[#ffd700] rounded'
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                        {item.tags.restrictions?.map((tag) => (
-                          <span
-                            key={tag}
-                            className='px-[0.5vw] bg-[#ff9500]/20 text-[#ff9500] rounded'
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                    )}
+                        <div className='flex flex-wrap justify-center gap-[0.5vw]'>
+                          {item.tags.ingredients?.map((tag) => (
+                            <span
+                              key={tag}
+                              className='px-[0.5vw] bg-white/10 text-white/60 rounded'
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                          {item.tags.flavors?.map((tag) => (
+                            <span
+                              key={tag}
+                              className='px-[0.5vw] bg-[#ffd700]/20 text-[#ffd700] rounded'
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                          {item.tags.restrictions?.map((tag) => (
+                            <span
+                              key={tag}
+                              className='px-[0.5vw] bg-[#ff9500]/20 text-[#ff9500] rounded'
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                      )}
 
                     {/* Options Display as Tags */}
                     {item.options && item.options.length > 0 && (

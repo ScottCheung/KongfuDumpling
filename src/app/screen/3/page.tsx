@@ -95,10 +95,11 @@ export default function Screen3() {
                   )}
 
                   {/* Price Badge - positioned relative to image container */}
-                  <div className='absolute -right-[4vw] bottom-[2vw] flex items-center justify-center font-bold italic tracking-wider text-[#F3D092] capitalize rounded-full'>
+                  <div className='absolute -right-[4vw] bottom-[2vw] flex items-baseline justify-center font-bold italic tracking-wider text-[#F3D092] gap-[0.2vw] capitalize rounded-full'>
+                    {item.options.length !== 0 && <div className='z-30 text-[1vw]'>From </div>}
                     <PriceDisplay
                       price={item.price || 0}
-                      className='z-10'
+                      className='z-30'
                       size={2}
                     />
                     <div className='w-full h-full bg-black absolute blur-xl z-0'></div>
@@ -109,7 +110,7 @@ export default function Screen3() {
                 <div className='flex flex-col gap-[1vw] justify-center z-20 -mt-[2.5vw]'>
                   <div className='flex relative justify-center'>
                     {/* <AutoScroll speed={5}> */}
-                    <h3 className=' font-bold px-5 text-[2vw]  text-stroke  z-20 text-white text-center leading-[2.2vw]'>
+                    <h3 className=' font-bold px-5 text-[1.8vw]  text-stroke  z-20 text-white text-center leading-[2.2vw]'>
                       {item.name}
                     </h3>
                     {/* </AutoScroll> */}
@@ -121,33 +122,33 @@ export default function Screen3() {
                     {(item.tags?.ingredients?.length ||
                       item.tags?.flavors?.length ||
                       item.tags?.restrictions?.length) && (
-                      <div className='flex flex-wrap justify-center gap-[0.5vw]'>
-                        {item.tags.ingredients?.map((tag) => (
-                          <span
-                            key={tag}
-                            className='px-[0.5vw] bg-white/10 text-white/60 rounded'
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                        {item.tags.flavors?.map((tag) => (
-                          <span
-                            key={tag}
-                            className='px-[0.5vw] bg-[#ffd700]/20 text-[#ffd700] rounded'
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                        {item.tags.restrictions?.map((tag) => (
-                          <span
-                            key={tag}
-                            className='px-[0.5vw] bg-[#ff9500]/20 text-[#ff9500] rounded'
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                    )}
+                        <div className='flex flex-wrap justify-center gap-[0.5vw]'>
+                          {item.tags.ingredients?.map((tag) => (
+                            <span
+                              key={tag}
+                              className='px-[0.5vw] bg-white/10 text-white/60 rounded'
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                          {item.tags.flavors?.map((tag) => (
+                            <span
+                              key={tag}
+                              className='px-[0.5vw] bg-[#ffd700]/20 text-[#ffd700] rounded'
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                          {item.tags.restrictions?.map((tag) => (
+                            <span
+                              key={tag}
+                              className='px-[0.5vw] bg-[#ff9500]/20 text-[#ff9500] rounded'
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                      )}
 
                     {/* Options Display as Tags */}
                     {item.options && item.options.length > 0 && (
@@ -155,9 +156,9 @@ export default function Screen3() {
                         {item.options.map((opt: any, i: number) => (
                           <span
                             key={i}
-                            className='px-[0.5vw] bg-gradient-to-r from-[#ff6b35]/20 to-[#f7931e]/20 text-[#ff9500] rounded-full font-medium border border-[#ff9500]/30'
+                            className='px-[0.5vw] text-[0.8vw] bg-gradient-to-r from-[#ff6b35]/20 to-[#f7931e]/20 text-[#ff9500] rounded-full font-medium  border border-[#ff9500]/30'
                           >
-                            {opt.name}
+                            {opt.name + ' '}
                             {
                               <span className='text-[#ffd700] font-bold'>
                                 $ {(item.price + opt.price).toFixed(2)}

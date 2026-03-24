@@ -75,12 +75,12 @@ export default function Screen4() {
           </div>
         </header>
 
-        <section className='flex-1 grid grid-cols-3 gap-[4vw] -mt-[2vw] '>
+        <section className='flex-1 grid grid-cols-3 gap-[2vw] -mt-[2vw] '>
           {/* Column 1: Dumplings & Side Dishes */}
-          <div className='flex flex-col gap-[4vw]'>
+          <div className='flex flex-col gap-[2vw]'>
             {categories
               .filter((cat) =>
-                ['homemade-dumplings', 'side-dish'].includes(cat.id),
+                ['homemade-dumplings', 'noodle-fried-rice'].includes(cat.id),
               )
               .map((cat) => (
                 <CategorySection key={cat.id} category={cat} />
@@ -88,7 +88,7 @@ export default function Screen4() {
           </div>
 
           {/* Column 2: Rice Bowls */}
-          <div className='flex flex-col gap-[4vw]'>
+          <div className='flex flex-col gap-[2vw]'>
             {categories
               .filter((cat) => ['kong-fu-rice-bowls'].includes(cat.id))
               .map((cat) => (
@@ -97,9 +97,9 @@ export default function Screen4() {
           </div>
 
           {/* Column 3: Soup & Noodles */}
-          <div className='flex flex-col gap-[4vw]'>
+          <div className='flex flex-col gap-[2vw]'>
             {categories
-              .filter((cat) => ['soup', 'noodle-fried-rice'].includes(cat.id))
+              .filter((cat) => ['side-dish', 'soup'].includes(cat.id))
               .map((cat) => (
                 <CategorySection key={cat.id} category={cat} />
               ))}
@@ -116,10 +116,10 @@ function CategorySection({ category }: { category: any }) {
       <div className='text-[#ffd700] text-[1vw] font-bold uppercase tracking-widest border-b-[0.2vw] border-[#ffd700]/50 pb-[0.5vw] '>
         {category.name}
       </div>
-      <div className='flex flex-col gap-[0.7vw]'>
+      <div className='flex flex-col gap-[0.5vw]'>
         {category.items.map((item: any) => (
           <div key={item.id} className='flex items-center group'>
-            <div className='w-[4vw] h-[4vw] shrink-0 mr-[0.5vw] rounded-full relative overflow-hidden'>
+            <div className='size-[3.5vw] shrink-0 mr-[0.5vw] rounded-full relative overflow-hidden'>
               {item.image && (
                 <Image
                   src={item.image}
