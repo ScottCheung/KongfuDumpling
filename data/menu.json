@@ -338,7 +338,7 @@
       "items": [
         {
           "id": "8",
-          "name": "Tibetan Beef Rice Bowl",
+          "name": "Tibetan Beef",
           "price": 15.9,
           "image": "/images/Rice Bowls/Tibetan Beef.png",
           "tags": {
@@ -352,7 +352,7 @@
         },
         {
           "id": "9",
-          "name": "Kun Pao Chicken Rice Bowl",
+          "name": "Kun Pao Chicken",
           "description": "",
           "price": 14.9,
           "image": "/images/Rice Bowls/Kun Pao Chicken Rice Bowl.png",
@@ -382,7 +382,7 @@
         },
         {
           "id": "12",
-          "name": "Teriyaki Salmon Rice Bowl",
+          "name": "Teriyaki Salmon",
           "description": "GFO",
           "price": 15.9,
           "image": "/images/Rice Bowls/Teriyaki Salmon Rice Bowl.png",
@@ -397,7 +397,7 @@
         },
         {
           "id": "13",
-          "name": "Taiwanese Pork Belly Rice Bowl",
+          "name": "Taiwanese Pork Belly",
           "price": 15.9,
           "image": "/images/Rice Bowls/Taiwanese Pork Belly Rice Bowl.png",
           "tags": {
@@ -411,7 +411,7 @@
         },
         {
           "id": "14",
-          "name": "Mapo Tofu Rice Bowl",
+          "name": "Mapo Tofu",
           "description": "",
           "price": 13.9,
           "image": "/images/Rice Bowls/Mapo Tofu.png",
@@ -426,7 +426,7 @@
         },
         {
           "id": "15",
-          "name": "Satay Chicken Rice Bowl",
+          "name": "Satay Chicken",
           "price": 14.9,
           "image": "/images/Rice Bowls/Satay Chicken Rice Bowl.png",
           "tags": {
@@ -440,7 +440,7 @@
         },
         {
           "id": "16",
-          "name": "Mongolian Grilled Beef Rice Bowl",
+          "name": "Mongolian Grilled Beef",
           "description": "GFO",
           "price": 14.9,
           "image": "/images/Rice Bowls/Mongolian Grilled Beef Rice Bowl.png",
@@ -455,7 +455,7 @@
         },
         {
           "id": "17",
-          "name": "Thai Red Curry Chicken Rice Bowl",
+          "name": "Thai Red Curry Chicken",
           "image": "/images/Rice Bowls/Thai Red Curry Chicken Rice Bowl.png",
           "price": 14.9,
           "tags": {
@@ -468,7 +468,7 @@
           "options": []
         },
         {
-          "name": "XinJiang Chicken Rice Bowl",
+          "name": "XinJiang Chicken",
           "price": 14.9,
           "description": "",
           "tags": {

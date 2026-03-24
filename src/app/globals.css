@@ -49,3 +49,7 @@
 body {
   @apply bg-background text-foreground antialiased selection:bg-primary selection:text-primary-foreground font-display;
 }
+
+/* .text-stroke {
+  -webkit-text-stroke: 0.05vw black;
+} */

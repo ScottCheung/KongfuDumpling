@@ -4,14 +4,24 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Edit3, Monitor, Database, RotateCcw, Sparkles, ArrowRight, ChefHat } from 'lucide-react';
+import {
+  Edit3,
+  Monitor,
+  Database,
+  RotateCcw,
+  Sparkles,
+  ArrowRight,
+  ChefHat,
+} from 'lucide-react';
 
 export default function Home() {
   const enterFullscreen = () => {
     const elem = document.documentElement;
     if (elem.requestFullscreen) {
       elem.requestFullscreen().catch((err) => {
-        console.error(`Error attempting to enable full-screen mode: ${err.message}`);
+        console.error(
+          `Error attempting to enable full-screen mode: ${err.message}`,
+        );
       });
     }
   };
@@ -41,18 +51,22 @@ export default function Home() {
           </motion.div>
           <h1
             className='text-7xl md:text-8xl font-black mb-6 bg-linear-to-b from-white to-gray-400 bg-clip-text text-transparent'
-            style={{ fontFamily: 'var(--font-display, Inter), sans-serif', letterSpacing: '-0.02em' }}
+            style={{
+              fontFamily: 'var(--font-display, Inter), sans-serif',
+              letterSpacing: '-0.02em',
+            }}
           >
             Kung Fu Kitchen
           </h1>
           <p className='text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto font-light leading-relaxed'>
-            Elevate your culinary presentation with our intelligent menu management and display solution.
+            Elevate your culinary presentation with our intelligent menu
+            management and display solution.
           </p>
         </motion.div>
 
         <div className='grid md:grid-cols-3 gap-6 mb-20'>
           {/* Showcase Card */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
@@ -68,15 +82,17 @@ export default function Home() {
                     Menu Showcase
                   </h2>
                   <p className='text-gray-400 text-base leading-relaxed mb-8'>
-                    Browse our gourmet collection with high-fidelity visuals and detailed culinary information.
+                    Browse our gourmet collection with high-fidelity visuals and
+                    detailed culinary information.
                   </p>
                   <div className='flex items-center text-white font-semibold group-hover:gap-3 gap-2 transition-all mt-auto'>
-                    View Menu <ArrowRight size={18} className='text-emerald-500' />
+                    View Menu{' '}
+                    <ArrowRight size={18} className='text-emerald-500' />
                   </div>
                 </div>
               </div>
             </Link>
-          </motion.div>
+          </motion.div> */}
 
           {/* Editor Card */}
           <motion.div
@@ -95,10 +111,12 @@ export default function Home() {
                     Menu Editor
                   </h2>
                   <p className='text-gray-400 text-base leading-relaxed mb-8'>
-                    Modify descriptions, adjust pricing, and customize your visual themes with our real-time editor.
+                    Modify descriptions, adjust pricing, and customize your
+                    visual themes with our real-time editor.
                   </p>
                   <div className='flex items-center text-white font-semibold group-hover:gap-3 gap-2 transition-all mt-auto'>
-                    Open Editor <ArrowRight size={18} className='text-amber-500' />
+                    Open Editor{' '}
+                    <ArrowRight size={18} className='text-amber-500' />
                   </div>
                 </div>
               </div>
@@ -122,9 +140,12 @@ export default function Home() {
                     Display Screen
                   </h2>
                   <p className='text-gray-400 text-base leading-relaxed mb-8'>
-                    Display multi-screen menu boards with adaptive layouts that scale across any 16:9 resolution.                </p>
+                    Display multi-screen menu boards with adaptive layouts that
+                    scale across any 16:9 resolution.{' '}
+                  </p>
                   <div className='flex items-center text-white font-semibold group-hover:gap-3 gap-2 transition-all mt-auto'>
-                    Launch Display <ArrowRight size={18} className='text-orange-500' />
+                    Launch Display{' '}
+                    <ArrowRight size={18} className='text-orange-500' />
                   </div>
                 </div>
               </div>
@@ -144,21 +165,29 @@ export default function Home() {
               <Database className='text-amber-500/70 w-5 h-5' />
             </div>
             <h4 className='font-bold text-lg mb-2'>Local Storage</h4>
-            <p className='text-sm text-gray-500 leading-relaxed'>Changes are automatically synced to your browser's local storage.</p>
+            <p className='text-sm text-gray-500 leading-relaxed'>
+              Changes are automatically synced to your browser's local storage.
+            </p>
           </div>
           <div className='flex flex-col items-center text-center px-4'>
             <div className='w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mb-4 border border-white/10'>
               <RotateCcw className='text-amber-500/70 w-5 h-5' />
             </div>
             <h4 className='font-bold text-lg mb-2'>Instant Reset</h4>
-            <p className='text-sm text-gray-500 leading-relaxed'>Quickly revert to default templates with a single click at any time.</p>
+            <p className='text-sm text-gray-500 leading-relaxed'>
+              Quickly revert to default templates with a single click at any
+              time.
+            </p>
           </div>
           <div className='flex flex-col items-center text-center px-4'>
             <div className='w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mb-4 border border-white/10'>
               <Sparkles className='text-amber-500/70 w-5 h-5' />
             </div>
             <h4 className='font-bold text-lg mb-2'>Change Tracking</h4>
-            <p className='text-sm text-gray-500 leading-relaxed'>Visual indicators highlight exactly which fields have been modified.</p>
+            <p className='text-sm text-gray-500 leading-relaxed'>
+              Visual indicators highlight exactly which fields have been
+              modified.
+            </p>
           </div>
         </motion.div>
       </div>

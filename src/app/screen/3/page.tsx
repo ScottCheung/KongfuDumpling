@@ -17,8 +17,8 @@ export default function Screen3() {
   useEffect(() => {
     if (!isLoaded) {
       setCategories(menuData.categories as any);
-    } 
-    
+    }
+
     setMounted(true);
 
     // Set CSS variable for responsive scaling based on viewport oo
@@ -54,27 +54,21 @@ export default function Screen3() {
 
   return (
     <div className='h-screen w-screen overflow-hidden bg-[#0a0a0a] relative'>
-
-
       {/* Main Content */}
       <main className='relative z-10  flex flex-col'>
-
-              <div
-                className='text-[12vw] font-black absolute -top-[3vw] left-[3vw]  -z-10'
-                style={{
-                  background:
-                    'linear-gradient(135deg, #ffd700 0%, #ff9500 100%)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                }}
-              >
-                Soup & Noodles
-              </div>
-
+        <div
+          className='text-[8vw] font-black absolute -top-[3vw] left-[3vw]  -z-10'
+          style={{
+            background: 'linear-gradient(135deg, #ffd700 0%, #ff9500 100%)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+          }}
+        >
+          Soup & Noodles
+        </div>
 
         {/* Grid for all items */}
         <div className='absolute top-[8vw]  grid z-30 grid-cols-4 gap-[3vw] pl-[2vw] pr-[4vw]'>
-
           {allItems.map((item, idx) => (
             <div key={item.id} className='group relative'>
               <div className='relative h-full flex flex-col'>
@@ -98,7 +92,6 @@ export default function Screen3() {
                         className='z-30 object-contain shadow-xl'
                       />
                     </motion.div>
-                    
                   )}
 
                   {/* Price Badge - positioned relative to image container */}
@@ -110,71 +103,71 @@ export default function Screen3() {
                     />
                     <div className='w-full h-full bg-black absolute blur-xl z-0'></div>
                   </div>
-                  
                 </div>
 
                 {/* Content */}
-                <div className='flex flex-col gap-[1vw] justify-center z-20 -mt-[3vw]'>
-                  <AutoScroll speed={5}>
-                  <h3 className=' font-bold px-5 text-[2vw] text-white text-center leading-tight'>
-                    {item.name}
-                  </h3>
-</AutoScroll>
-    
-<div className='text-[0.9vw] flex flex-col gap-[0.5vw]'>
-                  {/* Tags Display */}
-                  {(item.tags?.ingredients?.length ||
-                    item.tags?.flavors?.length ||
-                    item.tags?.restrictions?.length) && (
-                    <div
-                      className='flex flex-wrap justify-center gap-[0.5vw]'
-                    >
-                      {item.tags.ingredients?.map((tag) => (
-                        <span
-                          key={tag}
-                          className='px-[0.5vw] bg-white/10 text-white/60 rounded'
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                      {item.tags.flavors?.map((tag) => (
-                        <span
-                          key={tag}
-                          className='px-[0.5vw] bg-[#ffd700]/20 text-[#ffd700] rounded'
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                      {item.tags.restrictions?.map((tag) => (
-                        <span
-                          key={tag}
-                          className='px-[0.5vw] bg-[#ff9500]/20 text-[#ff9500] rounded'
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  )}
+                <div className='flex flex-col gap-[1vw] justify-center z-20 -mt-[2.5vw]'>
+                  <div className='flex relative justify-center'>
+                    {/* <AutoScroll speed={5}> */}
+                    <h3 className=' font-bold px-5 text-[2vw]  text-stroke  z-20 text-white text-center leading-[2.2vw]'>
+                      {item.name}
+                    </h3>
+                    {/* </AutoScroll> */}
+                    <div className='w-full h-full bg-black absolute blur-xl z-0'></div>
+                  </div>
 
-                  {/* Options Display as Tags */}
-                  {item.options && item.options.length > 0 && (
-                    <div className='flex flex-wrap justify-center  gap-[0.5vw]'>
-                      {item.options.map((opt: any, i: number) => (
-                        <span
-                          key={i}
-                          className='px-[0.5vw] bg-gradient-to-r from-[#ff6b35]/20 to-[#f7931e]/20 text-[#ff9500] rounded-full font-medium border border-[#ff9500]/30'
-                        >
-                          {opt.name}
-                          {opt.price > 0 && (
-                            <span className='text-[#ffd700] font-bold'>
-                              +${opt.price.toFixed(2)}
-                            </span>
-                          )}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-</div>
+                  <div className='text-[0.9vw] flex flex-col gap-[0.5vw] -mt-[0.5vw] z-20'>
+                    {/* Tags Display */}
+                    {(item.tags?.ingredients?.length ||
+                      item.tags?.flavors?.length ||
+                      item.tags?.restrictions?.length) && (
+                      <div className='flex flex-wrap justify-center gap-[0.5vw]'>
+                        {item.tags.ingredients?.map((tag) => (
+                          <span
+                            key={tag}
+                            className='px-[0.5vw] bg-white/10 text-white/60 rounded'
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                        {item.tags.flavors?.map((tag) => (
+                          <span
+                            key={tag}
+                            className='px-[0.5vw] bg-[#ffd700]/20 text-[#ffd700] rounded'
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                        {item.tags.restrictions?.map((tag) => (
+                          <span
+                            key={tag}
+                            className='px-[0.5vw] bg-[#ff9500]/20 text-[#ff9500] rounded'
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+
+                    {/* Options Display as Tags */}
+                    {item.options && item.options.length > 0 && (
+                      <div className='flex flex-wrap justify-center  gap-[0.5vw]'>
+                        {item.options.map((opt: any, i: number) => (
+                          <span
+                            key={i}
+                            className='px-[0.5vw] bg-gradient-to-r from-[#ff6b35]/20 to-[#f7931e]/20 text-[#ff9500] rounded-full font-medium border border-[#ff9500]/30'
+                          >
+                            {opt.name}
+                            {opt.price > 0 && (
+                              <span className='text-[#ffd700] font-bold'>
+                                +${opt.price.toFixed(2)}
+                              </span>
+                            )}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
