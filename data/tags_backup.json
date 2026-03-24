@@ -1,0 +1,35 @@
+{
+  "ingredients": [
+    "Pork",
+    "Beef",
+    "Chicken",
+    "Lamb",
+    "Turkey",
+    "Duck",
+    "Salmon",
+    "Prawn",
+    "Tofu",
+    "Vegetable",
+    "Mixed",
+    "Noodles",
+    "Rice",
+    "Cabbage",
+    "Green Onion",
+    "Potato",
+    "Egg"
+  ],
+  "flavors": [
+    "Spicy",
+    "Sweet",
+    "Sour",
+    "Savory",
+    "Mild"
+  ],
+  "restrictions": [
+    "Gluten-free",
+    "Dairy-free",
+    "Nut-free",
+    "Vegan"
+  ],
+  "lastModified": "2026-03-15T18:22:51.359Z"
+}
