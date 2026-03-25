@@ -126,7 +126,7 @@ export default function Screen2() {
       {/* Main Content */}
       <main className='relative z-10  flex flex-col p-[1vw]'>
         <div
-          className='text-[9vw] absolute top-[vw] left-[3vw] font-black   -z-10'
+          className='text-[11vw] absolute -top-[1vw] left-[4vw] font-black   -z-10'
           style={{
             background: 'linear-gradient(135deg, #ffd700 0%, #ff9500 100%)',
             WebkitBackgroundClip: 'text',
@@ -139,7 +139,7 @@ export default function Screen2() {
         {/* Grid for all rice bowls */}
         <div className=' grid z-30 grid-cols-4  gap-[2vw]  pr-[2vw] '>
           <div></div>
-          <div></div>
+          <div></div><div></div>
           {filteredItems.map((item, idx) => (
             <div key={item.id} className='group relative '>
               <div className='relative h-full flex flex-col '>

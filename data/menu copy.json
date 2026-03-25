@@ -337,6 +337,26 @@
           "options": []
         },
         {
+          "id": "11",
+          "name": "Stir Fry Rice Noodle",
+          "description": "",
+          "price": 14.9,
+          "image": "/images/Rice Bowls/Beef Chow Fun.png",
+          "tags": {
+            "ingredients": [
+              "Beef / Chicken",
+              "Flat Rice Noodle"
+            ],
+            "flavors": [],
+            "restrictions": [
+              "Gluten-free"
+            ]
+          },
+          "isModified": false,
+          "modifiedFields": [],
+          "options": []
+        },
+        {
           "id": "12",
           "name": "Teriyaki Salmon",
           "description": "GFO",
@@ -516,6 +536,23 @@
             "flavors": [
               "Mild"
             ],
+            "restrictions": []
+          },
+          "isModified": false,
+          "modifiedFields": [],
+          "options": []
+        },
+        {
+          "id": "20",
+          "name": "Yunnan Fried Pork Belly Noodle Soup",
+          "price": 15.9,
+          "image": "/images/Soup/Yunnan Fried Pork Belly Noodle Soup.png",
+          "tags": {
+            "ingredients": [
+              "Rice Noodles",
+              "Pork"
+            ],
+            "flavors": [],
             "restrictions": []
           },
           "isModified": false,
@@ -928,100 +965,6 @@
               "Gluten-free"
             ]
           }
-        },
-        {
-          "id": "11",
-          "name": "Stir Fry Rice Noodle",
-          "description": "",
-          "price": 12.9,
-          "image": "/images/Rice Bowls/Beef Chow Fun.png",
-          "options": [
-            {
-              "name": "Chicken",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Chicken"
-                ],
-                "flavors": [],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Tofu",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Tofu",
-                  "Vegetarian",
-                  "Vegetable"
-                ],
-                "flavors": [
-                  "Mild"
-                ],
-                "restrictions": [
-                  "Vegan"
-                ]
-              }
-            },
-            {
-              "name": "Beef",
-              "price": 1,
-              "tags": {
-                "ingredients": [
-                  "Beef"
-                ],
-                "flavors": [],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Char Siu Pork",
-              "price": 1,
-              "tags": {
-                "ingredients": [
-                  "Pork"
-                ],
-                "flavors": [
-                  "Sweet"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Combination",
-              "price": 2,
-              "tags": {
-                "ingredients": [
-                  "Mixed"
-                ],
-                "flavors": [],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Prawn",
-              "price": 2,
-              "tags": {
-                "ingredients": [
-                  "Prawn"
-                ],
-                "flavors": [],
-                "restrictions": []
-              }
-            }
-          ],
-          "tags": {
-            "ingredients": [
-              "Flat Rice Noodle"
-            ],
-            "flavors": [],
-            "restrictions": [
-              "Gluten-free"
-            ]
-          },
-          "isModified": false,
-          "modifiedFields": []
         }
       ],
       "isModified": false,

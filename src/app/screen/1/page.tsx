@@ -99,7 +99,7 @@ export default function Screen1() {
               </div>
               {dumplings.items.map((item) => (
                 <div key={item.id} className='flex items-center group'>
-                  {/* <div className='w-[4vw] h-[4vw] shrink-0 mr-[1.5vw] bg-white/5 rounded-full p-[0.3vw] relative overflow-hidden'>
+                  <div className='w-[4vw] h-[4vw] shrink-0 mr-[1.5vw] bg-white/5 rounded-full p-[0.3vw] relative overflow-hidden'>
                     {item.image && (
                       <Image
                         src={item.image}
@@ -109,7 +109,7 @@ export default function Screen1() {
                         className='object-contain p-[0.3vw]'
                       />
                     )}
-                  </div> */}
+                  </div>
                   <div className='flex-1 flex flex-col'>
                     <div className='flex items-baseline justify-between'>
                       <h4 className='text-[1.5vw] font-bold text-white leading-none whitespace-nowrap'>
