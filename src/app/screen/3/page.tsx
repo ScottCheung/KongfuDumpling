@@ -96,7 +96,9 @@ export default function Screen3() {
 
                   {/* Price Badge - positioned relative to image container */}
                   <div className='absolute -right-[4vw] bottom-[2vw] flex items-baseline justify-center font-bold italic tracking-wider text-[#F3D092] gap-[0.2vw] capitalize rounded-full'>
-                    {item.options.length !== 0 && <div className='z-30 text-[1vw]'>From </div>}
+                    {item.options && item.options.length > 0 && (
+                      <div className='z-30 text-[1vw]'>From </div>
+                    )}
                     <PriceDisplay
                       price={item.price || 0}
                       className='z-30'

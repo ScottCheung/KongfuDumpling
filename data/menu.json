@@ -17,7 +17,11 @@
             ],
             "flavors": [],
             "restrictions": []
-          }
+          },
+          "id": "33",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
         },
         {
           "name": "Beef Onion and Carrot",
@@ -32,7 +36,11 @@
             ],
             "flavors": [],
             "restrictions": []
-          }
+          },
+          "id": "34",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
         },
         {
           "name": "Lamb Zucchini and Leek",
@@ -46,7 +54,11 @@
             ],
             "flavors": [],
             "restrictions": []
-          }
+          },
+          "id": "35",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
         },
         {
           "name": "Chicken Celery and Mushroom",
@@ -60,7 +72,11 @@
             ],
             "flavors": [],
             "restrictions": []
-          }
+          },
+          "id": "36",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
         },
         {
           "name": "Pork Prawn and Bok Choi",
@@ -74,7 +90,11 @@
             ],
             "flavors": [],
             "restrictions": []
-          }
+          },
+          "id": "37",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
         },
         {
           "name": "Turkey Spinach and Sweet Corn",
@@ -86,8 +106,13 @@
               "Spinach",
               "Sweet Corn"
             ],
-            "restrictions": []
-          }
+            "restrictions": [],
+            "flavors": []
+          },
+          "id": "38",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
         },
         {
           "name": "Vegetarian",
@@ -98,8 +123,14 @@
               "Bean Sprouts",
               "Cabbage",
               "Carrot"
-            ]
-          }
+            ],
+            "flavors": [],
+            "restrictions": []
+          },
+          "id": "39",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
         }
       ],
       "isModified": false,
