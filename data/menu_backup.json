@@ -2,270 +2,137 @@
   "categories": [
     {
       "id": "homemade-dumplings",
-      "name": "Homemade Dumplings",
+      "name": "Homemade dumplings ( pan fried / steamed)",
       "description": "Authentic handmade dumplings with a variety of fresh fillings, available steamed or pan-fried to golden perfection",
       "items": [
         {
-          "id": "1",
-          "name": "Fried Dumpling",
-          "price": 1,
+          "name": "Pork Cabbage and Green Onion",
           "image": "/images/Homemade Dumplings/Fried Dumpling.png",
-          "isModified": false,
-          "modifiedFields": [],
-          "options": [
-            {
-              "name": "Pork",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Pork",
-                  "Cabbage",
-                  "Green Onion"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Beef",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Beef",
-                  "Onion",
-                  "Carrot",
-                  "Green Onion"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Lamb",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Lamb",
-                  "Zucchini",
-                  "Leek"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Chicken",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Chicken",
-                  "Celery",
-                  "Mushroom"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Pork",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Pork",
-                  "Prawn",
-                  "Bok Choi"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Turkey",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Turkey",
-                  "Spinach",
-                  "Sweet Corn"
-                ],
-                "flavors": [
-                  "Sweet",
-                  "Mild"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Vegetarian",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Bean Sprouts",
-                  "Cabbage",
-                  "Carrot",
-                  "Vegetable"
-                ],
-                "flavors": [
-                  "Mild",
-                  "Savory"
-                ],
-                "restrictions": [
-                  "Vegetarian",
-                  "Vegan"
-                ]
-              }
-            }
-          ],
+          "price": 1,
           "tags": {
             "ingredients": [
-              "Mixed"
+              "Pork",
+              "Cabbage",
+              "Green Onion"
             ],
-            "flavors": [
-              "Savory"
-            ],
+            "flavors": [],
             "restrictions": []
-          }
+          },
+          "id": "33",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
         },
         {
-          "id": "2",
-          "name": "Steamed Dumpling",
+          "name": "Beef Onion and Carrot",
+          "image": "/images/Homemade Dumplings/Fried Dumpling.png",
           "price": 1,
-          "image": "/images/Homemade Dumplings/Steamed Dumpling.png",
-          "isModified": false,
-          "modifiedFields": [],
-          "options": [
-            {
-              "name": "Pork",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Pork",
-                  "Cabbage",
-                  "Green Onion"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Beef",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Beef",
-                  "Onion",
-                  "Carrot",
-                  "Green Onion"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Lamb",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Lamb",
-                  "Zucchini",
-                  "Leek"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Chicken",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Chicken",
-                  "Celery",
-                  "Mushroom"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Pork",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Pork",
-                  "Prawn",
-                  "Bok Choi"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Turkey",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Turkey",
-                  "Spinach",
-                  "Sweet Corn"
-                ],
-                "flavors": [
-                  "Sweet",
-                  "Mild"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Vegetarian",
-              "price": 0,
-              "tags": {
-                "ingredients": [
-                  "Bean Sprouts",
-                  "Cabbage",
-                  "Carrot",
-                  "Vegetable"
-                ],
-                "flavors": [
-                  "Mild",
-                  "Savory"
-                ],
-                "restrictions": [
-                  "Vegetarian",
-                  "Vegan"
-                ]
-              }
-            }
-          ],
           "tags": {
             "ingredients": [
-              "Mixed"
+              "Beef",
+              "Onion",
+              "Carrot",
+              "Green Onion"
             ],
-            "flavors": [
-              "Savory"
-            ],
+            "flavors": [],
             "restrictions": []
-          }
+          },
+          "id": "34",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
+        },
+        {
+          "name": "Lamb Zucchini and Leek",
+          "image": "/images/Homemade Dumplings/Fried Dumpling.png",
+          "price": 1,
+          "tags": {
+            "ingredients": [
+              "Lamb",
+              "Zucchini",
+              "Leek"
+            ],
+            "flavors": [],
+            "restrictions": []
+          },
+          "id": "35",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
+        },
+        {
+          "name": "Chicken Celery and Mushroom",
+          "image": "/images/Homemade Dumplings/Fried Dumpling.png",
+          "price": 1,
+          "tags": {
+            "ingredients": [
+              "Chicken",
+              "Celery",
+              "Mushroom"
+            ],
+            "flavors": [],
+            "restrictions": []
+          },
+          "id": "36",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
+        },
+        {
+          "name": "Pork Prawn and Bok Choi",
+          "image": "/images/Homemade Dumplings/Fried Dumpling.png",
+          "price": 1,
+          "tags": {
+            "ingredients": [
+              "Pork",
+              "Prawn",
+              "Bok Choi"
+            ],
+            "flavors": [],
+            "restrictions": []
+          },
+          "id": "37",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
+        },
+        {
+          "name": "Turkey Spinach and Sweet Corn",
+          "image": "/images/Homemade Dumplings/Fried Dumpling.png",
+          "price": 1,
+          "tags": {
+            "ingredients": [
+              "Turkey",
+              "Spinach",
+              "Sweet Corn"
+            ],
+            "restrictions": [],
+            "flavors": []
+          },
+          "id": "38",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
+        },
+        {
+          "name": "Vegetarian",
+          "image": "/images/Homemade Dumplings/Fried Dumpling.png",
+          "price": 1,
+          "tags": {
+            "ingredients": [
+              "Bean Sprouts",
+              "Cabbage",
+              "Carrot"
+            ],
+            "flavors": [],
+            "restrictions": [
+              "Vegan"
+            ]
+          },
+          "id": "39",
+          "options": [],
+          "isModified": false,
+          "modifiedFields": []
         }
       ],
       "isModified": false,
@@ -292,8 +159,7 @@
                   "Pork"
                 ],
                 "flavors": [
-                  "Sweet",
-                  "Savory"
+                  "Sweet"
                 ],
                 "restrictions": []
               }
@@ -306,8 +172,7 @@
                   "Pork"
                 ],
                 "flavors": [
-                  "Sweet",
-                  "Savory"
+                  "Sweet"
                 ],
                 "restrictions": []
               }
@@ -317,26 +182,20 @@
             "ingredients": [
               "Pork"
             ],
-            "flavors": [
-              "Spicy",
-              "Savory"
-            ],
+            "flavors": [],
             "restrictions": []
           }
         },
         {
           "id": "27",
-          "name": "Gua bao",
-          "price": 3,
+          "name": "Gua Bao",
+          "price": 5,
           "image": "/images/Side Dish/Steam Bao.png",
           "tags": {
             "ingredients": [
-              "Pork Belly or Chicken",
-              "Mixed"
+              "Pork Belly / Chicken"
             ],
-            "flavors": [
-              "Savory"
-            ],
+            "flavors": [],
             "restrictions": []
           },
           "isModified": false,
@@ -349,9 +208,7 @@
                 "ingredients": [
                   "Pork"
                 ],
-                "flavors": [
-                  "Savory"
-                ],
+                "flavors": [],
                 "restrictions": []
               }
             },
@@ -362,9 +219,7 @@
                 "ingredients": [
                   "Chicken"
                 ],
-                "flavors": [
-                  "Savory"
-                ],
+                "flavors": [],
                 "restrictions": []
               }
             }
@@ -372,7 +227,7 @@
         },
         {
           "id": "29",
-          "name": "Pork Dim Sims",
+          "name": "Steam/Fried Dim Sims",
           "price": 2,
           "image": "/images/Side Dish/Pork Dim Sims.png",
           "isModified": false,
@@ -385,9 +240,7 @@
                 "ingredients": [
                   "Pork"
                 ],
-                "flavors": [
-                  "Savory"
-                ],
+                "flavors": [],
                 "restrictions": []
               }
             },
@@ -398,9 +251,7 @@
                 "ingredients": [
                   "Pork"
                 ],
-                "flavors": [
-                  "Savory"
-                ],
+                "flavors": [],
                 "restrictions": []
               }
             }
@@ -409,9 +260,7 @@
             "ingredients": [
               "Pork"
             ],
-            "flavors": [
-              "Savory"
-            ],
+            "flavors": [],
             "restrictions": []
           }
         },
@@ -428,11 +277,9 @@
               "price": 0,
               "tags": {
                 "ingredients": [
-                  "Vegetable"
+                  "Vegetable / Pork"
                 ],
-                "flavors": [
-                  "Savory"
-                ],
+                "flavors": [],
                 "restrictions": []
               }
             },
@@ -443,20 +290,16 @@
                 "ingredients": [
                   "Pork"
                 ],
-                "flavors": [
-                  "Savory"
-                ],
+                "flavors": [],
                 "restrictions": []
               }
             }
           ],
           "tags": {
             "ingredients": [
-              "Vegetable"
+              "Vegetable / Pork"
             ],
-            "flavors": [
-              "Savory"
-            ],
+            "flavors": [],
             "restrictions": []
           }
         },
@@ -466,14 +309,10 @@
           "description": "",
           "tags": {
             "ingredients": [
-              "Pork"
+              "Prawn"
             ],
-            "flavors": [
-              "Savory"
-            ],
-            "restrictions": [
-              "Gluten-free"
-            ]
+            "flavors": [],
+            "restrictions": []
           },
           "image": "/images/Side Dish/Prawn Cutlet.png",
           "id": "32",
@@ -491,86 +330,18 @@
       "description": "Hearty rice bowls featuring signature Chinese dishes with perfectly steamed rice and flavorful toppings",
       "items": [
         {
-          "id": "8",
-          "name": "Tibetan Beef Rice Bowl",
-          "price": 15.9,
-          "image": "/images/Rice Bowls/Tibetan Beef.png",
-          "tags": {
-            "ingredients": [
-              "Beef",
-              "Rice",
-              "Potato"
-            ],
-            "flavors": [
-              "Savory"
-            ],
-            "restrictions": []
-          },
-          "isModified": false,
-          "modifiedFields": [],
-          "options": []
-        },
-        {
           "id": "9",
-          "name": "Kun Pao Chicken Rice Bowl",
+          "name": "Kun Pao Chicken",
           "description": "",
           "price": 14.9,
           "image": "/images/Rice Bowls/Kun Pao Chicken Rice Bowl.png",
           "tags": {
             "ingredients": [
               "Chicken",
-              "Rice",
-              "Lamb"
-            ],
-            "flavors": [
-              "Spicy",
-              "Savory"
-            ],
-            "restrictions": [
-              "Gluten-free"
-            ]
-          },
-          "isModified": false,
-          "modifiedFields": [],
-          "options": []
-        },
-        {
-          "id": "11",
-          "name": "Beef Chow Fun",
-          "description": "",
-          "price": 14.9,
-          "image": "/images/Rice Bowls/Beef Chow Fun.png",
-          "tags": {
-            "ingredients": [
-              "Beef",
-              "Rice Noodle"
-            ],
-            "flavors": [
-              "Spicy",
-              "Savory"
-            ],
-            "restrictions": [
-              "Gluten-free"
-            ]
-          },
-          "isModified": false,
-          "modifiedFields": [],
-          "options": []
-        },
-        {
-          "id": "12",
-          "name": "Teriyaki Salmon Rice Bowl",
-          "description": "GFO",
-          "price": 15.9,
-          "image": "/images/Rice Bowls/Teriyaki Salmon Rice Bowl.png",
-          "tags": {
-            "ingredients": [
-              "Salmon",
               "Rice"
             ],
             "flavors": [
-              "Sweet",
-              "Savory"
+              "Spicy / Less Spicy"
             ],
             "restrictions": [
               "Gluten-free"
@@ -582,17 +353,15 @@
         },
         {
           "id": "13",
-          "name": "Taiwanese Pork Belly Rice Bowl",
+          "name": "Taiwanese Pork Belly",
           "price": 15.9,
           "image": "/images/Rice Bowls/Taiwanese Pork Belly Rice Bowl.png",
           "tags": {
             "ingredients": [
-              "Pork",
+              "Pork Belly",
               "Rice"
             ],
-            "flavors": [
-              "Savory"
-            ],
+            "flavors": [],
             "restrictions": []
           },
           "isModified": false,
@@ -601,87 +370,150 @@
         },
         {
           "id": "14",
-          "name": "Mapo Tofu Rice Bowl",
+          "name": "Mapo Tofu",
           "description": "",
           "price": 13.9,
           "image": "/images/Rice Bowls/Mapo Tofu.png",
           "tags": {
             "ingredients": [
               "Tofu",
-              "Vegetarian",
+              "Prok",
               "Rice"
             ],
-            "flavors": [
-              "Savory"
-            ],
+            "flavors": [],
             "restrictions": [
-              "Vegan",
               "Gluten-free"
             ]
           },
           "isModified": false,
           "modifiedFields": [],
-          "options": []
+          "options": [
+            {
+              "name": "Vegetarian",
+              "price": 0,
+              "tags": {
+                "ingredients": [],
+                "flavors": [],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Pork",
+              "price": 0,
+              "tags": {
+                "ingredients": [],
+                "flavors": [],
+                "restrictions": []
+              }
+            }
+          ]
+        },
+        {
+          "id": "25",
+          "name": "Kong Fu Fried Rice",
+          "description": "",
+          "image": "/images/Noodle & Fried Rice/Kong Fu Fried Rice.png",
+          "options": [
+            {
+              "name": "Chicken",
+              "price": 0,
+              "tags": {
+                "ingredients": [
+                  "Chicken"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Tofu",
+              "price": 0,
+              "tags": {
+                "ingredients": [
+                  "Tofu",
+                  "Vegetarian",
+                  "Vegetable"
+                ],
+                "flavors": [
+                  "Mild"
+                ],
+                "restrictions": [
+                  "Vegan"
+                ]
+              }
+            },
+            {
+              "name": "Beef",
+              "price": 1,
+              "tags": {
+                "ingredients": [
+                  "Beef"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Char Siu Pork",
+              "price": 1,
+              "tags": {
+                "ingredients": [
+                  "Pork"
+                ],
+                "flavors": [
+                  "Sweet"
+                ],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Combination",
+              "price": 2,
+              "tags": {
+                "ingredients": [
+                  "Mixed"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Prawn",
+              "price": 2,
+              "tags": {
+                "ingredients": [
+                  "Prawn"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
+            }
+          ],
+          "isModified": false,
+          "modifiedFields": [],
+          "price": 12.9,
+          "tags": {
+            "ingredients": [
+              "Optional"
+            ],
+            "flavors": [],
+            "restrictions": [
+              "Gluten-free"
+            ]
+          }
         },
         {
           "id": "15",
-          "name": "Satay Chicken Rice Bowl",
+          "name": "Honey Soy Chicken",
           "price": 14.9,
           "image": "/images/Rice Bowls/Satay Chicken Rice Bowl.png",
           "tags": {
             "ingredients": [
               "Chicken",
               "Rice",
-              "Mushroom"
+              "Vegetable"
             ],
-            "flavors": [
-              "Spicy",
-              "Savory"
-            ],
-            "restrictions": [
-              "Nut-free"
-            ]
-          },
-          "isModified": false,
-          "modifiedFields": [],
-          "options": []
-        },
-        {
-          "id": "16",
-          "name": "Mongolian Grilled Beef Rice Bowl",
-          "description": "GFO",
-          "price": 14.9,
-          "image": "/images/Rice Bowls/Mongolian Grilled Beef Rice Bowl.png",
-          "tags": {
-            "ingredients": [
-              "Beef",
-              "Rice"
-            ],
-            "flavors": [
-              "Savory"
-            ],
-            "restrictions": [
-              "Gluten-free"
-            ]
-          },
-          "isModified": false,
-          "modifiedFields": [],
-          "options": []
-        },
-        {
-          "id": "17",
-          "name": "Thai Red Curry Chicken Rice Bowl",
-          "image": "/images/Rice Bowls/Thai Red Curry Chicken Rice Bowl.png",
-          "price": 14.9,
-          "tags": {
-            "ingredients": [
-              "Pork",
-              "Rice"
-            ],
-            "flavors": [
-              "Spicy",
-              "Savory"
-            ],
+            "flavors": [],
             "restrictions": []
           },
           "isModified": false,
@@ -689,7 +521,27 @@
           "options": []
         },
         {
-          "name": "XinJiang Chicken Rice Bowl",
+          "id": "17",
+          "name": "Tofu and Mushroom",
+          "image": "/images/Rice Bowls/Thai Red Curry Chicken Rice Bowl.png",
+          "price": 14.9,
+          "tags": {
+            "ingredients": [
+              "Tofu",
+              "Mushroom",
+              "Rice"
+            ],
+            "flavors": [],
+            "restrictions": [
+              "Vegan"
+            ]
+          },
+          "isModified": false,
+          "modifiedFields": [],
+          "options": []
+        },
+        {
+          "name": "XinJiang Chicken",
           "price": 14.9,
           "description": "",
           "tags": {
@@ -709,6 +561,28 @@
           "id": "31",
           "isModified": false,
           "modifiedFields": [],
+          "options": []
+        },
+        {
+          "name": "Beef Steak Rice Bowl",
+          "price": 14.9,
+          "description": "",
+          "tags": {
+            "ingredients": [
+              "Beef",
+              "Green Onion"
+            ],
+            "flavors": [
+              "Black Pepper"
+            ],
+            "restrictions": [
+              "Gluten-free"
+            ]
+          },
+          "id": "40",
+          "isModified": false,
+          "modifiedFields": [],
+          "image": "/images/Rice Bowls/Beef Steak Rice Bowl.png",
           "options": []
         }
       ],
@@ -731,8 +605,7 @@
               "Noodles"
             ],
             "flavors": [
-              "Spicy",
-              "Savory"
+              "Spicy / Less Spicy"
             ],
             "restrictions": []
           },
@@ -742,36 +615,16 @@
         },
         {
           "id": "19",
-          "name": "Shanghai Wonton Noodle Soup",
-          "price": 12.9,
+          "name": "Wonton Noodle Soup",
+          "price": 13.9,
           "image": "/images/Soup/Shanghai Wonton(4pcs) Noodle Soup.png",
           "tags": {
             "ingredients": [
               "Pork",
-              "Noodles"
+              "Egg Noodles"
             ],
             "flavors": [
-              "Mild",
-              "Savory"
-            ],
-            "restrictions": []
-          },
-          "isModified": false,
-          "modifiedFields": [],
-          "options": []
-        },
-        {
-          "id": "20",
-          "name": "Yunnan Fried Pork Belly Noodle Soup",
-          "price": 15.9,
-          "image": "/images/Soup/Yunnan Fried Pork Belly Noodle Soup.png",
-          "tags": {
-            "ingredients": [
-              "Noodles",
-              "Pork"
-            ],
-            "flavors": [
-              "Savory"
+              "Mild"
             ],
             "restrictions": []
           },
@@ -781,20 +634,42 @@
         },
         {
           "id": "21",
-          "name": "SiChuan Malatang Hot Pot",
+          "name": "Malatang Hot Pot",
           "description": "",
-          "price": 15.9,
+          "price": 13.9,
           "image": "/images/Soup/SiChuan Malatang Hot Pot.png",
           "tags": {
             "ingredients": [
-              "Mixed"
+              "Chicken",
+              "Beef",
+              "Prawn",
+              "Vegetable",
+              "Tofu"
             ],
             "flavors": [
-              "Spicy",
-              "Savory"
+              "Option: Spicy / Less Spicy"
+            ],
+            "restrictions": []
+          },
+          "isModified": false,
+          "modifiedFields": [],
+          "options": []
+        },
+        {
+          "id": "22",
+          "name": "Stied-fry Tofu with Mashroom Soup",
+          "description": "",
+          "price": 13.9,
+          "image": "/images/Soup/SiChuan Malatang Hot Pot.png",
+          "tags": {
+            "ingredients": [
+              "Tofu"
+            ],
+            "flavors": [
+              "Mild"
             ],
             "restrictions": [
-              "Gluten-free"
+              "Vegan"
             ]
           },
           "isModified": false,
@@ -816,68 +691,13 @@
           "image": "/images/Noodle & Fried Rice/Stir Fry Egg Noodle.png",
           "options": [
             {
-              "name": "Combination",
-              "price": 2,
-              "tags": {
-                "ingredients": [
-                  "Mixed"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Prawn",
-              "price": 2,
-              "tags": {
-                "ingredients": [
-                  "Prawn"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Char Siu Pork",
-              "price": 1,
-              "tags": {
-                "ingredients": [
-                  "Pork"
-                ],
-                "flavors": [
-                  "Sweet",
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
               "name": "Chicken",
               "price": 0,
               "tags": {
                 "ingredients": [
                   "Chicken"
                 ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Beef",
-              "price": 1,
-              "tags": {
-                "ingredients": [
-                  "Beef"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
+                "flavors": [],
                 "restrictions": []
               }
             },
@@ -891,12 +711,57 @@
                   "Vegetable"
                 ],
                 "flavors": [
-                  "Mild",
-                  "Savory"
+                  "Mild"
                 ],
                 "restrictions": [
                   "Vegan"
                 ]
+              }
+            },
+            {
+              "name": "Beef",
+              "price": 1,
+              "tags": {
+                "ingredients": [
+                  "Beef"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Char Siu Pork",
+              "price": 1,
+              "tags": {
+                "ingredients": [
+                  "Pork"
+                ],
+                "flavors": [
+                  "Sweet"
+                ],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Combination",
+              "price": 2,
+              "tags": {
+                "ingredients": [
+                  "Mixed"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Prawn",
+              "price": 2,
+              "tags": {
+                "ingredients": [
+                  "Prawn"
+                ],
+                "flavors": [],
+                "restrictions": []
               }
             }
           ],
@@ -907,11 +772,9 @@
             "ingredients": [
               "Noodles",
               "Egg",
-              "Mixed"
+              "Optional"
             ],
-            "flavors": [
-              "Savory"
-            ],
+            "flavors": [],
             "restrictions": []
           }
         },
@@ -922,68 +785,13 @@
           "image": "/images/Noodle & Fried Rice/Singapore Noodles.png",
           "options": [
             {
-              "name": "Combination",
-              "price": 2,
-              "tags": {
-                "ingredients": [
-                  "Mixed"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Prawn",
-              "price": 2,
-              "tags": {
-                "ingredients": [
-                  "Prawn"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Char Siu Pork",
-              "price": 1,
-              "tags": {
-                "ingredients": [
-                  "Pork"
-                ],
-                "flavors": [
-                  "Sweet",
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
               "name": "Chicken",
               "price": 0,
               "tags": {
                 "ingredients": [
                   "Chicken"
                 ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Beef",
-              "price": 1,
-              "tags": {
-                "ingredients": [
-                  "Beef"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
+                "flavors": [],
                 "restrictions": []
               }
             },
@@ -997,12 +805,57 @@
                   "Vegetable"
                 ],
                 "flavors": [
-                  "Mild",
-                  "Savory"
+                  "Mild"
                 ],
                 "restrictions": [
                   "Vegan"
                 ]
+              }
+            },
+            {
+              "name": "Beef",
+              "price": 1,
+              "tags": {
+                "ingredients": [
+                  "Beef"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Char Siu Pork",
+              "price": 1,
+              "tags": {
+                "ingredients": [
+                  "Pork"
+                ],
+                "flavors": [
+                  "Sweet"
+                ],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Combination",
+              "price": 2,
+              "tags": {
+                "ingredients": [
+                  "Mixed"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Prawn",
+              "price": 2,
+              "tags": {
+                "ingredients": [
+                  "Prawn"
+                ],
+                "flavors": [],
+                "restrictions": []
               }
             }
           ],
@@ -1011,11 +864,9 @@
           "price": 12.9,
           "tags": {
             "ingredients": [
-              "Mixed"
+              "Optional"
             ],
-            "flavors": [
-              "Savory"
-            ],
+            "flavors": [],
             "restrictions": [
               "Gluten-free"
             ]
@@ -1028,68 +879,13 @@
           "image": "/images/Noodle & Fried Rice/Pad Thai.png",
           "options": [
             {
-              "name": "Combination",
-              "price": 2,
-              "tags": {
-                "ingredients": [
-                  "Mixed"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Prawn",
-              "price": 2,
-              "tags": {
-                "ingredients": [
-                  "Prawn"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Char Siu Pork",
-              "price": 1,
-              "tags": {
-                "ingredients": [
-                  "Pork"
-                ],
-                "flavors": [
-                  "Sweet",
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
               "name": "Chicken",
               "price": 0,
               "tags": {
                 "ingredients": [
                   "Chicken"
                 ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Beef",
-              "price": 1,
-              "tags": {
-                "ingredients": [
-                  "Beef"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
+                "flavors": [],
                 "restrictions": []
               }
             },
@@ -1103,12 +899,57 @@
                   "Vegetable"
                 ],
                 "flavors": [
-                  "Mild",
-                  "Savory"
+                  "Mild"
                 ],
                 "restrictions": [
                   "Vegan"
                 ]
+              }
+            },
+            {
+              "name": "Beef",
+              "price": 1,
+              "tags": {
+                "ingredients": [
+                  "Beef"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Char Siu Pork",
+              "price": 1,
+              "tags": {
+                "ingredients": [
+                  "Pork"
+                ],
+                "flavors": [
+                  "Sweet"
+                ],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Combination",
+              "price": 2,
+              "tags": {
+                "ingredients": [
+                  "Mixed"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Prawn",
+              "price": 2,
+              "tags": {
+                "ingredients": [
+                  "Prawn"
+                ],
+                "flavors": [],
+                "restrictions": []
               }
             }
           ],
@@ -1117,7 +958,7 @@
           "price": 12.9,
           "tags": {
             "ingredients": [
-              "Mixed"
+              "Optional"
             ],
             "flavors": [
               "Sour",
@@ -1129,51 +970,12 @@
           }
         },
         {
-          "id": "25",
-          "name": "Kong Fu Fried Rice",
+          "id": "11",
+          "name": "Stir Fry Rice Noodle",
           "description": "",
-          "image": "/images/Noodle & Fried Rice/Kong Fu Fried Rice.png",
+          "price": 12.9,
+          "image": "/images/Rice Bowls/Beef Chow Fun.png",
           "options": [
-            {
-              "name": "Combination",
-              "price": 2,
-              "tags": {
-                "ingredients": [
-                  "Mixed"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Prawn",
-              "price": 2,
-              "tags": {
-                "ingredients": [
-                  "Prawn"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Char Siu Pork",
-              "price": 1,
-              "tags": {
-                "ingredients": [
-                  "Pork"
-                ],
-                "flavors": [
-                  "Sweet",
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
             {
               "name": "Chicken",
               "price": 0,
@@ -1181,22 +983,7 @@
                 "ingredients": [
                   "Chicken"
                 ],
-                "flavors": [
-                  "Savory"
-                ],
-                "restrictions": []
-              }
-            },
-            {
-              "name": "Beef",
-              "price": 1,
-              "tags": {
-                "ingredients": [
-                  "Beef"
-                ],
-                "flavors": [
-                  "Savory"
-                ],
+                "flavors": [],
                 "restrictions": []
               }
             },
@@ -1210,34 +997,76 @@
                   "Vegetable"
                 ],
                 "flavors": [
-                  "Mild",
-                  "Savory"
+                  "Mild"
                 ],
                 "restrictions": [
                   "Vegan"
                 ]
               }
+            },
+            {
+              "name": "Beef",
+              "price": 1,
+              "tags": {
+                "ingredients": [
+                  "Beef"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Char Siu Pork",
+              "price": 1,
+              "tags": {
+                "ingredients": [
+                  "Pork"
+                ],
+                "flavors": [
+                  "Sweet"
+                ],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Combination",
+              "price": 2,
+              "tags": {
+                "ingredients": [
+                  "Mixed"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
+            },
+            {
+              "name": "Prawn",
+              "price": 2,
+              "tags": {
+                "ingredients": [
+                  "Prawn"
+                ],
+                "flavors": [],
+                "restrictions": []
+              }
             }
           ],
-          "isModified": false,
-          "modifiedFields": [],
-          "price": 12.9,
           "tags": {
             "ingredients": [
-              "Mixed"
+              "Flat Rice Noodle"
             ],
-            "flavors": [
-              "Savory"
-            ],
+            "flavors": [],
             "restrictions": [
               "Gluten-free"
             ]
-          }
+          },
+          "isModified": false,
+          "modifiedFields": []
         }
       ],
       "isModified": false,
       "modifiedFields": []
     }
   ],
-  "lastModified": "2026-03-20T18:42:44.338Z"
+  "lastModified": "2026-07-15T04:05:16.175Z"
 }

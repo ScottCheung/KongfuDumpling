@@ -16,14 +16,17 @@
     "Cabbage",
     "Green Onion",
     "Potato",
-    "Egg"
+    "Egg",
+    "Mix Meat"
   ],
   "flavors": [
     "Spicy",
     "Sweet",
     "Sour",
     "Savory",
-    "Mild"
+    "Mild",
+    "Option: Pork / Vegetarian",
+    "Black Pepper"
   ],
   "restrictions": [
     "Gluten-free",
@@ -31,5 +34,5 @@
     "Nut-free",
     "Vegan"
   ],
-  "lastModified": "2026-03-15T18:22:51.359Z"
+  "lastModified": "2026-07-15T03:45:36.973Z"
 }

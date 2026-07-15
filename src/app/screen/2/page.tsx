@@ -102,7 +102,7 @@ export default function Screen2() {
       const newTypeTags =
         currentTypeTags.includes(tag) ?
           currentTypeTags.filter((t) => t !== tag)
-          : [...currentTypeTags, tag];
+        : [...currentTypeTags, tag];
       return {
         ...prev,
         [type]: newTypeTags,
@@ -126,7 +126,7 @@ export default function Screen2() {
       {/* Main Content */}
       <main className='relative z-10  flex flex-col p-[1vw]'>
         <div
-          className='text-[11vw] absolute -top-[1vw] left-[4vw] font-black   -z-10'
+          className='text-[8vw] absolute -top-[1vw] left-[4vw] font-black   -z-10'
           style={{
             background: 'linear-gradient(135deg, #ffd700 0%, #ff9500 100%)',
             WebkitBackgroundClip: 'text',
@@ -137,14 +137,12 @@ export default function Screen2() {
         </div>
 
         {/* Grid for all rice bowls */}
-        <div className=' grid z-30 grid-cols-4  gap-[2vw]  pr-[2vw] '>
-          <div></div>
-          <div></div><div></div>
-          {filteredItems.map((item, idx) => (
+        <div className='absolute top-[12vw]  grid z-30 grid-cols-4 grid-rows-3 gap-[1vw] pl-[2vw]  pr-[4vw]'>
+          {filteredItems.map((item: any, idx: number) => (
             <div key={item.id} className='group relative '>
               <div className='relative h-full flex flex-col '>
                 {/* Image with responsive height */}
-                <div className='relative  w-full mx-auto  max-w-[15VW] -mt-[1vw] '>
+                <div className='relative  w-full mx-auto  max-w-[17VW] -mt-[1vw] '>
                   {item.image && (
                     <motion.div
                       initial={{ rotate: 0 }}
@@ -159,15 +157,22 @@ export default function Screen2() {
                         src={item.image}
                         alt={item.name}
                         fill
-                        sizes='15vw'
+                        sizes='17vw'
                         className='z-30 object-contain shadow-xl'
                       />
                     </motion.div>
                   )}
 
                   {/* Price Badge - positioned relative to image container */}
-                  <div className='absolute -right-[5vw]  bottom-[2vw] flex items-center justify-center font-bold italic tracking-wider text-[#F3D092] capitalize rounded-full'>
-                    <PriceDisplay price={item.price || 0} className='z-50' />
+                  <div className='absolute -right-[4vw] bottom-[2vw] flex items-baseline justify-center font-bold italic tracking-wider text-[#F3D092] gap-[0.2vw] capitalize rounded-full'>
+                    {item.options && item.options.length > 0 && (
+                      <div className='z-30 text-[1vw]'>From </div>
+                    )}
+                    <PriceDisplay
+                      price={item.price || 0}
+                      className='z-30'
+                      size={2}
+                    />
                     <div className='w-full h-full bg-black absolute blur-xl z-0'></div>
                   </div>
                 </div>
@@ -176,59 +181,62 @@ export default function Screen2() {
                 <div className='flex flex-col gap-[1vw]  justify-center z-10 -mt-[3vw]'>
                   <div className='flex relative justify-center'>
                     {/* <AutoScroll speed={5}> */}
-                    <h3 className=' font-bold px-5 text-[1.8vw]  text-stroke text-nowrap z-20 text-white text-center leading-tight'>
+
+                    <h3 className=' font-bold px-5 text-[2vw]  text-stroke text-nowrap z-20 text-white text-center leading-[2.2vw]'>
+                      {idx + 1}
+                      {'. '}
                       {item.name}
                     </h3>
                     {/* </AutoScroll> */}
                     <div className='w-full h-full bg-black absolute blur-xl z-0'></div>
                   </div>
-                  <div className='text-[0.9vw] flex mx-auto -mt-[0.6vw] z-10'>
+                  <div className='text-[0.9vw] flex flex-col gap-[0.5vw] -mt-[0.5vw] z-20'>
                     {/* Tags Display */}
                     {(item.tags?.ingredients?.length ||
                       item.tags?.flavors?.length ||
                       item.tags?.restrictions?.length) && (
-                        <div className='flex flex-wrap justify-center gap-[0.5vw]'>
-                          {item.tags.ingredients?.map((tag) => (
-                            <span
-                              key={tag}
-                              className='px-[0.5vw] bg-white/10 text-white/60 rounded'
-                            >
-                              {tag}
-                            </span>
-                          ))}
-                          {item.tags.flavors?.map((tag) => (
-                            <span
-                              key={tag}
-                              className='px-[0.5vw] bg-[#ffd700]/20 text-[#ffd700] rounded'
-                            >
-                              {tag}
-                            </span>
-                          ))}
-                          {item.tags.restrictions?.map((tag) => (
-                            <span
-                              key={tag}
-                              className='px-[0.5vw] bg-[#ff9500]/20 text-[#ff9500] rounded'
-                            >
-                              {tag}
-                            </span>
-                          ))}
-                        </div>
-                      )}
+                      <div className='flex flex-wrap justify-center gap-[0.5vw]'>
+                        {item.tags.ingredients?.map((tag) => (
+                          <span
+                            key={tag}
+                            className='px-[0.5vw] bg-white/10 text-white/60 rounded'
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                        {item.tags.flavors?.map((tag) => (
+                          <span
+                            key={tag}
+                            className='px-[0.5vw] bg-[#ffd700]/20 text-[#ffd700] rounded'
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                        {item.tags.restrictions?.map((tag) => (
+                          <span
+                            key={tag}
+                            className='px-[0.5vw] bg-[#ff9500]/20 text-[#ff9500] rounded'
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    )}
 
                     {/* Options Display as Tags */}
                     {item.options && item.options.length > 0 && (
-                      <div className='flex flex-wrap justify-center  text-[1vw] gap-[0.5vw]'>
+                      <div className='flex flex-wrap justify-center  gap-[0.5vw]'>
                         {item.options.map((opt: any, i: number) => (
                           <span
                             key={i}
-                            className='px-[0.5vw] bg-gradient-to-r from-[#ff6b35]/20 to-[#f7931e]/20 text-[#ff9500] rounded-full font-medium border border-[#ff9500]/30'
+                            className='px-[0.5vw] text-[0.8vw] bg-gradient-to-r from-[#ff6b35]/20 to-[#f7931e]/20 text-[#ff9500] rounded-full font-medium  border border-[#ff9500]/30'
                           >
-                            {opt.name}
-                            {opt.price && opt.price > 0 && (
+                            {opt.name + ' '}
+                            {
                               <span className='text-[#ffd700] font-bold'>
-                                +${opt.price.toFixed(2)}
+                                $ {(item.price + opt.price).toFixed(2)}
                               </span>
-                            )}
+                            }
                           </span>
                         ))}
                       </div>
