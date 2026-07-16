@@ -165,7 +165,7 @@ export default function Screen3() {
                         {item.options.map((opt: any, i: number) => (
                           <span
                             key={i}
-                            className='px-[0.5vw] text-[0.8vw] bg-gradient-to-r from-[#ff6b35]/20 to-[#f7931e]/20 text-[#ff9500] rounded-full font-medium  border border-[#ff9500]/30'
+                            className='px-[0.5vw] text-[0.8vw] bg-linear-to-r from-[#ff6b35]/20 to-[#f7931e]/20 text-[#ff9500] rounded-full font-medium  border border-[#ff9500]/30'
                           >
                             {opt.name + ' '}
                             {

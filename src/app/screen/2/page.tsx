@@ -138,7 +138,7 @@ export default function Screen2() {
 
         {/* Grid for all rice bowls */}
         <div className='absolute top-[10vw]  grid z-30 grid-cols-4 grid-rows-3 gap-x-[2vw] pl-[1vw]  pr-[4vw]'>
-          {filteredItems.map((item: any, idx: number) => (
+          {filteredItems.map((item: MenuItem, idx: number) => (
             <div
               key={item.id}
               className={`group relative ${idx >= 4 ? 'mt-[vw]' : ''}`}
@@ -232,7 +232,7 @@ export default function Screen2() {
                         {item.options.map((opt: any, i: number) => (
                           <span
                             key={i}
-                            className='px-[0.5vw] text-[0.8vw] bg-gradient-to-r from-[#ff6b35]/20 to-[#f7931e]/20 text-[#ff9500] rounded-full font-medium  border border-[#ff9500]/30'
+                            className='px-[0.5vw] text-[0.8vw] bg-linear-to-r from-[#ff6b35]/20 to-[#f7931e]/20 text-[#ff9500] rounded-full font-medium  border border-[#ff9500]/30'
                           >
                             {opt.name + ' '}
                             {

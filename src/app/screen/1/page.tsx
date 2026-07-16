@@ -5,6 +5,7 @@
 import { useEffect, useState } from 'react';
 import { useMenuStore } from '@/lib/store/menu-store';
 import { PriceDisplay } from '@/app/editor/components/PriceDisplay';
+import { MenuItem } from '@/types/menu';
 import { motion } from 'framer-motion';
 import { AutoScroll } from '@/components/UI/AutoScroll/AutoScroll';
 import menuData from '../../../../data/menu.json';
@@ -165,7 +166,7 @@ export default function Screen1() {
             <div className='text-[#ffd700] text-[1vw] font-bold uppercase tracking-widest border-b-4 border-[#ffd700]/20 pb-[0.5vw] '>
               {dumplings.name}
             </div>
-            {dumplings.items.map((item: any, index: number) => (
+            {dumplings.items.map((item: MenuItem, index: number) => (
               <div key={item.id} className='flex items-center group'>
                 <div className='w-[4vw] h-[4vw] shrink-0 mr-[1.5vw] bg-white/5 rounded-full p-[0.3vw] relative overflow-hidden'>
                   {/* {item.image && (
