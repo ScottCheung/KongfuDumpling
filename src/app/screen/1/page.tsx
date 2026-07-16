@@ -70,7 +70,7 @@ export default function Screen1() {
         <section className='flex-[1.6] flex flex-col h-full pt-[2vw]'>
           <div className='absolute w-[60%]'>
             <div
-              className='text-[8vw] -mt-[5vw] font-black leading-tight'
+              className='text-[8vw] -mt-[2vw] font-black leading-tight'
               style={{
                 background: 'linear-gradient(135deg, #ffd700 0%, #ff9500 100%)',
                 WebkitBackgroundClip: 'text',
@@ -159,7 +159,7 @@ export default function Screen1() {
         </section>
 
         {/* Right Side: Compact Vertical List */}
-        <section className='flex-[1.4] h-full flex flex-col mt-[7vw] mr-[3vw]'>
+        <section className='flex-[1.4] h-full flex flex-col mt-[3vw] mr-[3vw]'>
           {/* List of other Dumplings */}
           <div className='flex flex-col gap-[1.2vw] '>
             <div className='text-[#ffd700] text-[1vw] font-bold uppercase tracking-widest border-b-4 border-[#ffd700]/20 pb-[0.5vw] '>

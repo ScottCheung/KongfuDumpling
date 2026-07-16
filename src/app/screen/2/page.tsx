@@ -137,9 +137,12 @@ export default function Screen2() {
         </div>
 
         {/* Grid for all rice bowls */}
-        <div className='absolute top-[12vw]  grid z-30 grid-cols-4 grid-rows-3 gap-[1vw] pl-[2vw]  pr-[4vw]'>
+        <div className='absolute top-[10vw]  grid z-30 grid-cols-4 grid-rows-3 gap-x-[2vw] pl-[1vw]  pr-[4vw]'>
           {filteredItems.map((item: any, idx: number) => (
-            <div key={item.id} className='group relative '>
+            <div
+              key={item.id}
+              className={`group relative ${idx >= 4 ? 'mt-[vw]' : ''}`}
+            >
               <div className='relative h-full flex flex-col '>
                 {/* Image with responsive height */}
                 <div className='relative  w-full mx-auto  max-w-[17VW] -mt-[1vw] '>

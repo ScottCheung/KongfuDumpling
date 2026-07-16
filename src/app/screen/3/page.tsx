@@ -68,12 +68,18 @@ export default function Screen3() {
         </div>
 
         {/* Grid for all items */}
-        <div className='absolute top-[6vw]  grid z-30 grid-cols-4 grid-rows-3 gap-x-[1vw] gap-y-[-10vw] pl-[2vw]  pr-[4vw]'>
+        <div className='absolute top-[6vw]  grid z-30 grid-cols-4 grid-rows-3 gap-x-[1vw] pl-[1vw]  pr-[3vw]'>
           {allItems.map((item, idx) => (
-            <div key={item.id} className='group relative'>
-              <div className='relative h-full flex flex-col'>
+            <div
+              key={item.id}
+              className={`group relative ${idx >= 4 ? 'mt-[-2vw]' : ''}`}
+            >
+              <div className='relative h-full flex flex-col   '>
                 {/* Image with responsive height */}
-                <div className='relative  w-full  max-w-[17VW]  mx-auto'>
+                <div
+                  className='relative  w-full  max-w-[17VW]
+                  mx-auto'
+                >
                   {item.image && (
                     <motion.div
                       initial={{ rotate: 0 }}
