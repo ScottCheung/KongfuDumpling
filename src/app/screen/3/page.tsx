@@ -72,7 +72,7 @@ export default function Screen3() {
           {allItems.map((item, idx) => (
             <div
               key={item.id}
-              className={`group relative ${idx >= 4 ? 'mt-[-2vw]' : ''}`}
+              className={`group relative ${idx >= 4 ? 'mt-[-1.5vw]' : ''}`}
             >
               <div className='relative h-full flex flex-col   '>
                 {/* Image with responsive height */}
