@@ -471,7 +471,7 @@
         {
           "id": "18",
           "name": "Sichuan Chunky Beef Noodle Soup",
-          "price": 15.9,
+          "price": 14.9,
           "image": "/images/Soup/Sichuan Chunky Beef Noodle Soup1.png",
           "tags": {
             "ingredients": ["Beef", "Noodles"],
@@ -500,7 +500,7 @@
           "id": "21",
           "name": "Malatang Hot Pot",
           "description": "",
-          "price": 13.9,
+          "price": 14.9,
           "image": "/images/Soup/SiChuan Malatang Hot Pot.png",
           "tags": {
             "ingredients": ["Chicken", "Beef", "Prawn", "Vegetable", "Tofu"],

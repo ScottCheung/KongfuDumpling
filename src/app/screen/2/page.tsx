@@ -145,7 +145,7 @@ export default function Screen2() {
             >
               <div className='relative h-full flex flex-col '>
                 {/* Image with responsive height */}
-                <div className='relative  w-full mx-auto  max-w-[17VW] -mt-[1vw] '>
+                <div className='relative  w-full mx-auto  max-w-[20VW] -mt-[1vw] '>
                   {item.image && (
                     <motion.div
                       initial={{ rotate: 0 }}

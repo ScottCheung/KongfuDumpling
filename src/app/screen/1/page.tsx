@@ -68,7 +68,7 @@ export default function Screen1() {
       <main className='relative z-10 p-page flex gap-[6vw] h-full items-start'>
         {/* Left Side: Featured Protagonist (主角) */}
 
-        <section className='flex-[1.6] flex flex-col h-full pt-[2vw]'>
+        <section className='flex-[1.6] flex flex-col h-full pt-[1vw]'>
           <div className='absolute w-[60%]'>
             <div
               className='text-[8vw] -mt-[2vw] font-black leading-tight'
@@ -160,7 +160,7 @@ export default function Screen1() {
         </section>
 
         {/* Right Side: Compact Vertical List */}
-        <section className='flex-[1.4] h-full flex flex-col mt-[3vw] mr-[3vw]'>
+        <section className='flex-[1.4] h-full flex flex-col mt-[2vw] mr-[3vw]'>
           {/* List of other Dumplings */}
           <div className='flex flex-col gap-[1.2vw] '>
             <div className='text-[#ffd700] text-[1vw] font-bold uppercase tracking-widest border-b-4 border-[#ffd700]/20 pb-[0.5vw] '>
