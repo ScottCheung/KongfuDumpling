@@ -68,7 +68,7 @@ export default function Screen3() {
         </div>
 
         {/* Grid for all items */}
-        <div className='absolute top-[6vw]  grid z-30 grid-cols-4 grid-rows-3 gap-x-[1vw] pl-[1vw]  pr-[3vw]'>
+        <div className='absolute top-[4.5vw]  grid z-30 grid-cols-4 grid-rows-3 gap-x-[1vw] pl-[1vw]  pr-[3vw]'>
           {allItems.map((item, idx) => (
             <div
               key={item.id}
