@@ -68,7 +68,7 @@ export default function Screen1() {
       <main className='relative z-10 p-page flex gap-[6vw] h-full items-start'>
         {/* Left Side: Featured Protagonist (主角) */}
 
-        <section className='flex-[1.6] flex flex-col h-full pt-[1vw]'>
+        <section className='flex-[1.6] flex flex-col h-full pt-[0.5vw]'>
           <div className='absolute w-[60%]'>
             <div
               className='text-[8vw] -mt-[2vw] font-black leading-tight'
